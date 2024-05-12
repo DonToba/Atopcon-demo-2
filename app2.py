@@ -47,6 +47,7 @@ default_longitude = 3.362485
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define layout and style
 app.layout = html.Div(style={'backgroundColor': '#000', 'color': '#fff', 'fontFamily': 'Arial, sans-serif'}, children=[
